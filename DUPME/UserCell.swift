@@ -145,7 +145,7 @@ class UserCell: DatasourceCell {
     
     
     
-    func downloadClicked(){
+    @objc func downloadClicked(){
         guard let delegate = delegate else {
             print("delegate is nil")
             return

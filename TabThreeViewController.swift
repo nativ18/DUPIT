@@ -189,17 +189,17 @@ class TabThreeViewController: UIViewController {
     var logOutButton: UIButton!
     func setupLogOutButton(){
         logOutButton = UIButton(type: .system)
-        logOutButton.setTitle( "Sign Out", for: UIControlState.normal)
+        logOutButton.setTitle( "Sign Out", for: UIControl.State.normal)
         logOutButton.bounds = CGRect(x: 0, y: 0, width: 100, height: 50)
         logOutButton.center = CGPoint(x: view.bounds.width / 2 , y: 210)
         logOutButton.backgroundColor = UIColor.red
-        logOutButton.setTitleColor(UIColor.white, for: UIControlState.normal)
-        logOutButton.addTarget(self, action: #selector(handleLogOut), for: UIControlEvents.touchUpInside)
+        logOutButton.setTitleColor(UIColor.white, for: UIControl.State.normal)
+        logOutButton.addTarget(self, action: #selector(handleLogOut), for: UIControl.Event.touchUpInside)
         view.addSubview(logOutButton)
     }
 
     //handle logout function
-    func handleLogOut(){
+    @objc func handleLogOut(){
         
         do {
             try FIRAuth.auth()?.signOut()
@@ -214,7 +214,7 @@ class TabThreeViewController: UIViewController {
     }
     
     //handle setting section - present it
-    func handleSettingSection(){
+    @objc func handleSettingSection(){
         let settingController = SettingController()
         navigationController?.pushViewController(settingController, animated: true)
     }
@@ -226,7 +226,7 @@ class TabThreeViewController: UIViewController {
 
     }
     
-    func handleEditInfo(){
+    @objc func handleEditInfo(){
 
     }
     

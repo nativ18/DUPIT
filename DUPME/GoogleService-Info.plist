@@ -17,9 +17,9 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>dcr.DUPME</string>
+	<string>dcr.DUPME1239</string>
 	<key>PROJECT_ID</key>
-	<string>dupme-2692d</string>
+	<string>dcr.DUPME1239</string>
 	<key>STORAGE_BUCKET</key>
 	<string>dupme-2692d.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>

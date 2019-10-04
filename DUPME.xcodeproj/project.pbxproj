@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71384141125EF893B127D405 /* Pods_DUPME.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7BC0E7585AC6EE2B8A1725C /* Pods_DUPME.framework */; };
 		AC0E87F21E89CC7600357972 /* ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0E87F11E89CC7600357972 /* ImagePickerController.swift */; };
 		AC0E87F41E89DA8800357972 /* HomeDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0E87F31E89DA8800357972 /* HomeDatasource.swift */; };
 		AC0E87F61E89DAAE00357972 /* HeaderFooterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0E87F51E89DAAE00357972 /* HeaderFooterCell.swift */; };
@@ -26,7 +27,6 @@
 		AC16AB531EDA05B800FF64A9 /* ModelViewerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC16AB521EDA05B800FF64A9 /* ModelViewerController.swift */; };
 		AC3FD6481E0B725C001D7742 /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3FD6471E0B725C001D7742 /* SettingController.swift */; };
 		ACD3FC511E2BD6B6001EB6C3 /* TabThree+ProfilePhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD3FC501E2BD6B6001EB6C3 /* TabThree+ProfilePhoto.swift */; };
-		C408385C72EF81931000DAD6 /* Pods_DUPME.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA4F1045BFBBB982EA21BCB5 /* Pods_DUPME.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,13 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AA4F1045BFBBB982EA21BCB5 /* Pods_DUPME.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DUPME.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7BC0E7585AC6EE2B8A1725C /* Pods_DUPME.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DUPME.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC0E87F11E89CC7600357972 /* ImagePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerController.swift; sourceTree = "<group>"; };
 		AC0E87F31E89DA8800357972 /* HomeDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeDatasource.swift; sourceTree = "<group>"; };
 		AC0E87F51E89DAAE00357972 /* HeaderFooterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderFooterCell.swift; sourceTree = "<group>"; };
 		AC0E87F71E89DF8C00357972 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		AC0E87F91E8B4CF200357972 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC0E87FB1E8B62CB00357972 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		AC134760A84218224422DA6E /* Pods-DUPME.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DUPME.release.xcconfig"; path = "Target Support Files/Pods-DUPME/Pods-DUPME.release.xcconfig"; sourceTree = "<group>"; };
 		AC163F5A1DF7118A00C4D8CF /* DUPME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DUPME.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC163F5D1DF7118A00C4D8CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC163F5F1DF7118A00C4D8CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,8 +65,7 @@
 		AC16AB521EDA05B800FF64A9 /* ModelViewerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelViewerController.swift; sourceTree = "<group>"; };
 		AC3FD6471E0B725C001D7742 /* SettingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingController.swift; sourceTree = SOURCE_ROOT; };
 		ACD3FC501E2BD6B6001EB6C3 /* TabThree+ProfilePhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TabThree+ProfilePhoto.swift"; sourceTree = SOURCE_ROOT; };
-		AEAEFD134CC3B3E84609C2EB /* Pods-DUPME.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DUPME.release.xcconfig"; path = "Pods/Target Support Files/Pods-DUPME/Pods-DUPME.release.xcconfig"; sourceTree = "<group>"; };
-		FD8A7BC0C32488C7BA80A8B3 /* Pods-DUPME.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DUPME.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DUPME/Pods-DUPME.debug.xcconfig"; sourceTree = "<group>"; };
+		EC7A6587302B8E0416650D95 /* Pods-DUPME.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DUPME.debug.xcconfig"; path = "Target Support Files/Pods-DUPME/Pods-DUPME.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C408385C72EF81931000DAD6 /* Pods_DUPME.framework in Frameworks */,
+				71384141125EF893B127D405 /* Pods_DUPME.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,13 +87,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		042CAF1A39D92AFF730E1DD5 /* Pods */ = {
+		22AF7B1A74DE6DE39F301B58 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FD8A7BC0C32488C7BA80A8B3 /* Pods-DUPME.debug.xcconfig */,
-				AEAEFD134CC3B3E84609C2EB /* Pods-DUPME.release.xcconfig */,
+				EC7A6587302B8E0416650D95 /* Pods-DUPME.debug.xcconfig */,
+				AC134760A84218224422DA6E /* Pods-DUPME.release.xcconfig */,
 			);
-			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6FD731576144B9E37E30C825 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7BC0E7585AC6EE2B8A1725C /* Pods_DUPME.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		AC0E87F01E89CC4100357972 /* TabTwoViewController */ = {
@@ -116,8 +124,8 @@
 				AC163F5C1DF7118A00C4D8CF /* DUPME */,
 				AC163F711DF7118B00C4D8CF /* DUPMETests */,
 				AC163F5B1DF7118A00C4D8CF /* Products */,
-				042CAF1A39D92AFF730E1DD5 /* Pods */,
-				F54F52E3B39B0969B34C2C4E /* Frameworks */,
+				22AF7B1A74DE6DE39F301B58 /* Pods */,
+				6FD731576144B9E37E30C825 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -183,14 +191,6 @@
 			name = TabThreeController;
 			sourceTree = "<group>";
 		};
-		F54F52E3B39B0969B34C2C4E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				AA4F1045BFBBB982EA21BCB5 /* Pods_DUPME.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -198,12 +198,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC163F771DF7118B00C4D8CF /* Build configuration list for PBXNativeTarget "DUPME" */;
 			buildPhases = (
-				47BFFB2EECF4626790E82DBF /* [CP] Check Pods Manifest.lock */,
+				9F05CB2D4DD4778E32B7B3C7 /* [CP] Check Pods Manifest.lock */,
 				AC163F561DF7118A00C4D8CF /* Sources */,
 				AC163F571DF7118A00C4D8CF /* Frameworks */,
 				AC163F581DF7118A00C4D8CF /* Resources */,
-				1B33021760ADE74246FF01B7 /* [CP] Embed Pods Frameworks */,
-				D715B038B4EEA55028778D20 /* [CP] Copy Pods Resources */,
+				7A3F264E6849E2A319532FE1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -239,17 +238,18 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = Dupify;
 				TargetAttributes = {
 					AC163F591DF7118A00C4D8CF = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = MQ7A5TD5PL;
+						DevelopmentTeam = 6G7HW65TSM;
 						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					AC163F6D1DF7118B00C4D8CF = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5JGYN8P5C8;
 						ProvisioningStyle = Automatic;
 						TestTargetID = AC163F591DF7118A00C4D8CF;
 					};
@@ -257,7 +257,7 @@
 			};
 			buildConfigurationList = AC163F551DF7118A00C4D8CF /* Build configuration list for PBXProject "DUPME" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -296,49 +296,50 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1B33021760ADE74246FF01B7 /* [CP] Embed Pods Frameworks */ = {
+		7A3F264E6849E2A319532FE1 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DUPME/Pods-DUPME-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/ImagePicker/ImagePicker.framework",
+				"${BUILT_PRODUCTS_DIR}/LBTAComponents/LBTAComponents.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImagePicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LBTAComponents.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DUPME/Pods-DUPME-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DUPME/Pods-DUPME-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		47BFFB2EECF4626790E82DBF /* [CP] Check Pods Manifest.lock */ = {
+		9F05CB2D4DD4778E32B7B3C7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputFileListPaths = (
+			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DUPME-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		D715B038B4EEA55028778D20 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DUPME/Pods-DUPME-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -407,20 +408,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
@@ -444,12 +454,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -458,20 +469,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
@@ -489,10 +509,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -500,34 +521,34 @@
 		};
 		AC163F781DF7118B00C4D8CF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD8A7BC0C32488C7BA80A8B3 /* Pods-DUPME.debug.xcconfig */;
+			baseConfigurationReference = EC7A6587302B8E0416650D95 /* Pods-DUPME.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = MQ7A5TD5PL;
+				DEVELOPMENT_TEAM = 6G7HW65TSM;
 				INFOPLIST_FILE = DUPME/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = dcr.DUPME;
+				PRODUCT_BUNDLE_IDENTIFIER = dcr.DUPME1239;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		AC163F791DF7118B00C4D8CF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AEAEFD134CC3B3E84609C2EB /* Pods-DUPME.release.xcconfig */;
+			baseConfigurationReference = AC134760A84218224422DA6E /* Pods-DUPME.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = MQ7A5TD5PL;
+				DEVELOPMENT_TEAM = 6G7HW65TSM;
 				INFOPLIST_FILE = DUPME/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = dcr.DUPME;
+				PRODUCT_BUNDLE_IDENTIFIER = dcr.DUPME1239;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -536,11 +557,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				DEVELOPMENT_TEAM = 5JGYN8P5C8;
 				INFOPLIST_FILE = DUPMETests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dcr.DUPMETests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DUPME.app/DUPME";
 			};
 			name = Debug;
@@ -550,11 +573,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				DEVELOPMENT_TEAM = 5JGYN8P5C8;
 				INFOPLIST_FILE = DUPMETests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dcr.DUPMETests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DUPME.app/DUPME";
 			};
 			name = Release;

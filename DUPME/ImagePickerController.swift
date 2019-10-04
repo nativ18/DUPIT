@@ -56,7 +56,7 @@ extension TabTwoViewController: ImagePickerDelegate {
             let orderRef = storageRef.child("orders/\(userID)/\(subOrderName)").child("\(userID)_\(subOrderName)_\(i).jpg")
             i += 1
             
-            let myImage = UIImageJPEGRepresentation(image, 0.8)
+            let myImage = image.jpegData(compressionQuality: 0.8)
             let metadata = FIRStorageMetadata()
             metadata.contentType = "image/jpeg"
             

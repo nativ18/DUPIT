@@ -47,11 +47,11 @@ class LoginController: UIViewController {
         button.translatesAutoresizingMaskIntoConstraints = false
         button.setTitleColor(UIColor.white, for: .normal)
         button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 16)
-        button.addTarget(self, action: #selector(handleLoginRegister), for: UIControlEvents.touchUpInside)
+        button.addTarget(self, action: #selector(handleLoginRegister), for: UIControl.Event.touchUpInside)
         return button
     }()
     
-    func handleLoginRegister() {
+    @objc func handleLoginRegister() {
         
         if loginRegisterSegmentedControl.selectedSegmentIndex == 0 {
             handleLogin()
@@ -223,9 +223,9 @@ class LoginController: UIViewController {
     var emailTextFieldHeightAnchor: NSLayoutConstraint?
     var passwordTextFieldHeightAnchor: NSLayoutConstraint?
     
-    func handleLoginRegisterChange() {
+    @objc func handleLoginRegisterChange() {
         let title = loginRegisterSegmentedControl.titleForSegment(at: loginRegisterSegmentedControl.selectedSegmentIndex)
-        loginRegisterButton.setTitle(title, for: UIControlState())
+        loginRegisterButton.setTitle(title, for: UIControl.State())
         
         // change height of inputContainerView, but how???
         inputsContainerViewHeightAnchor?.constant = loginRegisterSegmentedControl.selectedSegmentIndex == 0 ? 100 : 150

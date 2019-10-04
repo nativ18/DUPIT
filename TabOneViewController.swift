@@ -43,7 +43,7 @@ class TabOneViewController: UIViewController {
     }
 
     
-    func handleLogOut(){
+    @objc func handleLogOut(){
         
         do {
             try FIRAuth.auth()?.signOut()

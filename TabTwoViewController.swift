@@ -93,7 +93,7 @@ class TabTwoViewController: DatasourceController , UINavigationBarDelegate, User
     }
 
     
-    func handleUpload(){
+    @objc func handleUpload(){
         let imagePicker = ImagePickerController()
         imagePicker.delegate = self
 //        imagePicker.imageLimit = 20

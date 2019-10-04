@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import DUPME
+//@testable import DUPME
 
 class DUPMETests: XCTestCase {
     

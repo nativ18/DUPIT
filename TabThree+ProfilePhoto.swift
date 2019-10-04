@@ -13,13 +13,13 @@ import LBTAComponents
 extension TabThreeViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
     
-    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+    private func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
         
         var selectedImageFromPicker: UIImage?
         
-        if let editedImage = info[UIImagePickerControllerEditedImage] as? UIImage {
+        if let editedImage = info[UIImagePickerController.InfoKey.editedImage.rawValue] as? UIImage {
             selectedImageFromPicker = editedImage
-        } else if let originalImage = info[UIImagePickerControllerOriginalImage] as? UIImage {
+        } else if let originalImage = info[UIImagePickerController.InfoKey.originalImage.rawValue] as? UIImage {
             selectedImageFromPicker = originalImage
         }
         
@@ -37,7 +37,7 @@ extension TabThreeViewController: UIImagePickerControllerDelegate, UINavigationC
     }
 
     
-    func handleSelectProfileImageView(){
+    @objc func handleSelectProfileImageView(){
         let picker = UIImagePickerController()
         picker.delegate = self
         picker.allowsEditing = true
@@ -126,7 +126,7 @@ extension TabThreeViewController: UIImagePickerControllerDelegate, UINavigationC
         let userID = FIRAuth.auth()!.currentUser!.uid
         let ref = storageRef.child("Profile Images").child("\(userID).jpg")
         
-        let myImage = UIImageJPEGRepresentation(self.profileImageView.image!, 0.8)
+        let myImage = profileImageView.image!.jpegData(compressionQuality: 0.8)
         let metadata = FIRStorageMetadata()
         metadata.contentType = "image/jpeg"
         ref.put(myImage!, metadata: metadata, completion: { (metadata, error) in
